@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web group one</title>
+    <style>
+        html{
+            background-color: #2f3542;
+        }
+        #i{
+            position: absolute;
+            width: 329px;
+            height: 311px;
+            padding:115px;
+            margin:100px auto;
+        }
+        .hi{
+            width: 275px;
+            height: 477px;
+            margin: 100px auto;
+            background-color:#FFF;
+            padding: 20px;
+            border-style:dotted ;
+        }
+        .hello{
+            width: 229px;
+            height: 298px;
+            padding: 20px;
+            background-color: #ced6e0;
+            border-style: double;
+            color:black;
+        }
+        h1{
+            text-align: center;
+            color: white
+        }
+        #tieu_de{
+            font-size: 20px;
+            color:black
+        }
+        #ket_qua{
+            font-size: 10px;
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Chương trình in ra số lớn nhất, nhỏ nhất, số nguyên tố, số chẵn, số lẻ và số hoàn hảo trong dãy</h1>
+        <div class="avatar">
+            <img src="tho.gif" alt="thỏ cổ vũ" id="i"> 
+        </div>
+        <div class="hi">
+            <p id="tieu_de">Nhập ngẫu nhiên một số</p>
+            <input type="number" id="tan"><br><br>
+        <button type="button" onclick="main()">Click</button>
+        <p style="text-align: center; font-size: 20px; margin: -3px; padding: 1px;">Khung kết quả</p>
+            <div class="hello">
+                <p id="ten"></p>
+                <p id="hello"></p>
+                <p id="nhattan"></p>
+                <p id="result"></p>
+                <p id="so_chan"></p>
+                <p id="so_le"></p>
+                <p id="so_hoan_hao"></p>
+                <p id="so_chinh_phuong"></p>
+            </div>
+        </div>
+
+
+        <script src="script.js">
+        </script>
+    </body>
+</html>
